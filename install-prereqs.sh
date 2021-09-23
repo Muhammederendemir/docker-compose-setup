@@ -1,6 +1,6 @@
 #!/bin/bash
 
-JENKINS_ENABLED=yes
+JENKINS_ENABLED=false
 SONARQUBE_ENABLED=false
 
 # DO NOT Execute this script with sudo
