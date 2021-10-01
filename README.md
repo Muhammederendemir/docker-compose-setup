@@ -14,12 +14,12 @@ cd docker-compose-setup
 ####If you want Jenkins to be installed, the following command should be written.
 
 ```sh
-sudo sed -i 's/JENKINS_ENABLED=false/JENKINS_ENABLED=yes/'  install-prereqs.sh 
+sudo sed -i 's/JENKINS_ENABLED=false/JENKINS_ENABLED=true/'  install-prereqs.sh 
 ```
 
 ####If you want Sonarqube to be installed, the following command should be written.
 ```sh
-sudo sed -i 's/SONARQUBE_ENABLED=false/SONARQUBE_ENABLED=yes/'  install-prereqs.sh 
+sudo sed -i 's/SONARQUBE_ENABLED=false/SONARQUBE_ENABLED=true/'  install-prereqs.sh 
 ```
 
 ```sh
